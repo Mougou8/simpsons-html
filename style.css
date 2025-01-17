@@ -1,0 +1,36 @@
+body{
+    background-color:goldenrod;
+}
+h1{
+
+    color:goldenrod;
+}
+main{
+    background-color:white;
+    text-align: justify;
+}
+h2{
+    background-color: rgb(0, 102, 255);
+    color: white;
+}
+p{
+    color:black;
+}
+nav{
+    background-color: cornflowerblue
+}
+a{
+    color: white;
+}    
+footer{
+    background-color: darkblue;
+}  
+small{
+    color: white;
+}
+aside{
+    background-color: deepskyblue;
+}
+h3, aside p{
+    color: white;
+}

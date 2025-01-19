@@ -1,81 +1,95 @@
-*{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-container{
+
+#container {
     align-content: center;
 }
 
 
 
-body{
-    background-color:rgb(219, 169, 43);
+body {
+    padding-left: 10%;
+    /* bordure gauche */
+    padding-right: 10%;
+    /* bordure droite */
+    background-color: rgb(219, 169, 43);
     /* display: flex; */
     justify-content: center;
+    /* centrage du contenu en axe et vertical */
     text-align: center;
-    width:100%;
-    background-color:goldenrod;
+    /* centrage de texte du contenu */
+    width: 100%;
+    /* background-color:goldenrod; */
 }
-    header{
-        width: 80%;
-    }
-        img{
-            width: 90%;
-        }
-        h2{
-            background-color: rgb(0, 102, 255);
-            color: white;
-        }
-        img{
-            width: 90%;
-        }
 
-    
+header {
+    width: 100%;
+}
 
-    main{
-        background-color:white;
-        width: 80%;
-        text-align: justify;
-        display: flex;
-    }
-        nav{
-            background-color: cornflowerblue;
-            
-            width:20%;
-        }
-            a{
-                display: flex;
-                color: white;
+img {
+    width: 100%;
+}
 
-            }    
-        
-        article{
-            width: 60%;
-        }
-        aside{
-            background-color: deepskyblue;
-            width: 20%;
-        }
-            img{
-                width: 80%;
+h2 {
+    background-color: rgb(0, 102, 255);
+    color: white;
+}
 
-                
-            }
-            h3, p{
-              
-            } 
-        
-    
-    footer{
-        width: 80%;
-        background-color: darkblue;
-    }
-        small{
-            color: white;
-        }
-    
+main {
+    background-color: white;
+    width: 100%;
+    text-align: justify;
+    display: flex;
+    padding: 20px 10px 20px 10px;
+}
+
+nav {
+    background-color: cornflowerblue;
+    height: 20%;
+    width: 20%;
+    text-align: center;
+    padding: 10px;
+}   
+ul{
+    list-style-type: none;
+}
+a {
+        color: white;
+
+}
+
+article {
+    width: 60%;
+    padding: 10px;
+}
+
+aside {
+        justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+    width: 20%;
+}
+.photo{
+    padding: 10px 30px 10px 30px;
+}
+.asideheader{
+    color: goldenrod;
+    padding-bottom: 20px;
+}
 
 
+/* h3, */
+/* p {} */
 
 
+footer {
+    width: 100%;
+    background-color: darkblue;
+}
+
+small {
+    color: white;
+}
